@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<!--Head sekcija, u ovu sekciju smiještamo sve skripte i linkove koji su potrebni za rad stranice, posjetilac ovaj dio ne vidi -->
+
+<head>
+    <meta charset="utf-8">
+    <title>Erna</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
+</head>
+
+<body>
+    <!--Tijelo stranice, u njemu se nalazi sve ono što možemo vidjeti na ekranu.-->
+    <div class="top-container">
+        <img class="top-cloud" src="images/cloud.png" alt="cloud">
+        <div class="title-text">
+            <h1>I'm Erna.</h1>
+        </div>
+        <img class="bottom-cloud" src="images/cloud.png" alt="cloud">
+        <img class="mountain" src="images/mountain.png" alt="mountain-img">
+    </div>
+    <!--Sekcija o meni, u njoj se nalazi slika kao i kratka biografija -->
+    <div class="middle-container">
+        <div class="profile">
+            <img src="images/erna.png" alt="">
+            <h2>O meni</h2>
+            <p class="intro">Zovem se Erna Šećić,rođena sam 03.05.2003.u Tuzli. Završila sam Osnovnu školu Ivan Goran Kovačić u Gradačcu odličnim uspjehom.Oduvijek su me privlačile priredbe,promocije te razne manifestacije na kojim sam bila voditelj.Volim čitati i pisati.U
+                slobodno vrijeme pišem pa se isto tako nadam da ću jednog dana imati i sama svoju promociju.Sada pohađam Gimaziju Mustafa Novalić u Gradačcu i treći sam razred.Poslje završene srednje škole planiram upisati Farmaceutski fakultet ali isto
+                tako dati još veći značaj pisanju svoje knjige.</p>
+        </div>
+        <hr>
+        <!--Sekcija o moj hobi, u ovoj sekciji možemo vidjeti da imamo listu koja sadrži spisak omiljenih knjiga kao i tabelu sa omiljenim izvođačima i njihovim numerama. Uz to imamo povezane i gifove.  -->
+        <div class="skills">
+            <h2>Moj hobi.</h2>
+            <div class="skill-row">
+                <img class="code-img" src="https://media.giphy.com/media/3o84U1nWRzyqOEOKpa/giphy.gif" alt="code-img">
+
+                <h3>Čitanje</h3>
+                <p>Zbog prevelike ljubavi prema knjigama, volim mnogo da čitam. Knjige koje su posebno ostavile utisak na mene su:</p>
+                <li>Med i mleko - Rupi Kaur</li>
+                <li>Zločin i kazna - Fjodor Mihajlovič Dostojevski</li>
+                <li>Ruža - Nura Bazdulj-Hubijar</li>
+                <li>Sto godina samoće - Gabriel García Márquez</li>
+
+            </div>
+            <div class="skill-row">
+                <img class="chilli-img" src="https://media.giphy.com/media/lqSDx8SI1916ysr4eq/giphy.gif" alt="chillies-img">
+
+                <h3>Slušanje muzike</h3>
+                <p>Pored čitanja, u slobodno vrijeme uživam slušajući muziku. Neki od najdražih izvođača su mi Dino Merlin i Adil. U nastavku možete poslušati moje omiljene pjesme.</p>
+                <!--Tabela od tri kolone i četiri reda, iz ove tabele otvaramo youtube stranicu pomoću buttona "Posjeti ovu stranicu"  -->
+                <table class="izvodjaci">
+                    <thead>
+                        <tr>
+                            <th>Izvođač</th>
+                            <th>Naziv </th>
+                            <th>Link</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Adil</td>
+                            <td>Moje si nebo</td>
+                            <td><a href="https://www.youtube.com/watch?v=ugNidguqoG8" class="myButton">Posjeti stranicu</a></td>
+                        </tr>
+                        <tr>
+                            <td>Adil</td>
+                            <td>Magija</td>
+                            <td><a href="https://www.youtube.com/watch?v=CwTiVc0eXGM" class="myButton">Posjeti stranicu</a></td>
+                        </tr>
+                        <tr>
+                            <td>Dino Merlin</td>
+                            <td>Sve dok te bude imalo</td>
+                            <td><a href="https://www.youtube.com/watch?v=jZ1VhrX4G8k" class="myButton">Posjeti stranicu</a></td>
+                        </tr>
+                        <tr>
+                            <td>Dino Merlin</td>
+                            <td>Ruža</td>
+                            <td><a href="https://www.youtube.com/watch?v=nU0V1lU3obE" class="myButton">Posjeti stranicu</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="bottom-container">
+        <a class="footer-link" href="">LinkedIn</a>
+        <a class="footer-link" href="">Twitter</a>
+        <a class="footer-link" href="">Website</a>
+        <p class="copyright">© 2020 Erna Šećić</p>
+        <!--Dodatak za muziku u pozadini stranice, player je neophodno aktivirati -->
+        <embed name="DinoMerlin" src="merlin.mp3" width="150" height="90" loop="true" autostart="true">
+    </div>
+</body>
+
+</html>
